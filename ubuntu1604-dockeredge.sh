@@ -12,3 +12,7 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt-get update
 
 sudo apt-get install docker-ce=17.05.0~ce-0~ubuntu-xenial
+
+sudo groupadd docker
+
+sudo usermod -aG docker $USER
